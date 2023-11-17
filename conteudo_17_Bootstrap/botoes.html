@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Título da página -->
+    <title>Bootstrap - botões</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- HTML5 hiv -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="margin-bottom: 200px; width: 600px; margin: 0 auto;">
+
+    <!-- Botoes 
+    formatação padrao: btn
+    formatações de cores:
+    btn-primary, btn-secondary, btn-success, btn-info,
+    btn-warning, btn-danger, btn-light, btn-dark, btn-link
+    -->
+    <h3>Botões</h3>
+    <button class="btn btn-primary" type="button">Clique</button>
+
+    <h3>Botões com diferentes tags</h3>
+    <a class="btn btn-danger" href="#">Link</a>
+    <button class="btn btn-dark" type="submit">Submit</button>
+    <input class="btn btn-info" type="button" value="Button">
+    <input class="btn btn-light" type="submit" value="Input Submit">
+    <input class="btn btn-success" type="reset" value="Reset">
+
+    <!-- Botoes com contorno
+    btn-outline-<formato>
+    -->
+    <h3>Botões com contorno</h3>
+    <button class="btn btn-outline-danger" type="button">Clique</button>
+
+    <!-- Tamanhos de botões
+    opções: btn-lg, btn-sm
+    -->
+    <h3>Tamanhos dos botões</h3>
+    <button class="btn btn-lg btn-outline-dark" type="button">Grande</button>
+    <button class="btn btn-danger" type="button">Normal</button>
+    <button class="btn btn-sm btn-outline-warning" type="button">Pequeno</button>
+    <br><br>
+
+
+    <!-- Estados dos botões
+    opções: active, disabled
+
+    Alternância entre estados
+    data-bs-toggle="button"
+    -->
+
+    <h3>Estados de botões</h3>
+    <button class="btn btn-primary" type="button">Normal</button>
+    <button class="btn btn-danger active" type="button">Ativo</button>
+    <button class="btn btn-danger disabled" type="button">Inativo</button>
+    <br><br>
+    <button class="btn btn-danger" type="button" data-bs-toggle="button">Alternar</button>
+
+    <!-- 
+        btn-group
+    -->
+    <h3>Grupos de botões - horizontal</h3>
+    <div class="btn-group">
+        <button class="btn btn-danger" type="button">Esquerda</button>
+        <button class="btn btn-danger" type="button">Centro</button>
+        <button class="btn btn-danger" type="button">Direita</button>
+    </div>
+
+    <!-- 
+        btn-group-vertical
+    -->
+    <h3>Grupos de botões - vertical</h3>
+    <div class="btn-group-vertical">
+        <button class="btn btn-danger" type="button">Topo</button>
+        <button class="btn btn-danger" type="button">Meio</button>
+        <button class="btn btn-danger" type="button">Fundo</button>
+    </div>
+
+    <!-- 
+    btn-toolbar
+    btn-group
+     -->
+    <h3>Toolbar de botões</h3>
+    <div class="btn-toolbar">
+        <div class="btn-group">
+            <button class="btn btn-danger" type="button">1</button>
+            <button class="btn btn-danger" type="button">2</button>
+            <button class="btn btn-danger" type="button">3</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn btn-danger" type="button">4</button>
+            <button class="btn btn-danger" type="button">5</button>
+        </div>
+    </div>
+
+
+    <!--  
+    dropdown
+     dropdown-toggle
+
+     data-bs-toggle="dropdown"
+
+     dropdown-menu
+     dropdown-item 
+
+     dropdown-divider
+    -->
+
+    <h3>Botões dropdown</h3>
+    <div class="dropdown">
+        <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Clique
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Link 1</a>
+            <div class="dropdown-divider bg-danger"></div>
+            <a href="#" class="dropdown-item">Link 2</a>
+            <a href="#" class="dropdown-item">Link 3</a>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

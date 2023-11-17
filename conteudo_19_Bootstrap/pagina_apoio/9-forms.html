@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Bootstrap - Formulários</title>
+
+  </head>
+
+  <body style="margin-bottom: 200px;padding: 16px;">
+
+    
+    <!-- formulários 
+        classe: form-control-<opcoes>
+        opções: sm, lg
+    -->
+    <form>
+        
+        <!-- caixas de texto -->
+        <div>
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" placeholder="Digite seu usuário">
+        </div>
+
+        <div>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Digite seu email" readonly>
+            <small>Email será validado</small>
+        </div>
+
+        <!-- select -->
+        <div>
+            <label for="estados">Estados</label>
+            <select id="estados">
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>...</option>
+            </select>
+        </div>
+
+        <!-- textarea -->
+        <div>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="3"></textarea>
+        </div>
+
+        <!-- file input -->
+        <div>
+            <label for="arquivo">Arquivo</label>
+            <input type="file" id="arquivo">
+        </div>
+
+
+
+        <!-- range -->
+        <div>
+            <label id="range">Satisfação</label>
+            <input type="range" 
+            id="range" min="1" max="5">
+        </div>
+
+        <!-- button -->
+        <input type="submit" value="Salvar">
+
+    </form>
+    <br><br>
+
+    <!-- Formulário inline -->
+    <form>
+        <div>
+            <label for="email-usuario">email</label>
+            <input type="text" id="email-usuario" placeholder="Digite seu e-mail">
+        </div>
+
+       
+        <div>
+            <label for="senha-usuario">Senha</label>
+            <input type="email" id="senha-usuario" placeholder="Digite sua senha">
+        </div>
+
+        <input type="submit" value="Logar">
+    </form>
+    <br><br>
+
+
+
+
+ <!-- Optional JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

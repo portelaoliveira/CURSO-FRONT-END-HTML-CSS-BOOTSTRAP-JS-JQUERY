@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    background: #643d87 url("../imagens/fundo.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+#principal {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-border-radius: 15px 50px;
+    -moz-border-radius: 15px 50px;
+    border-radius: 15px 50px;
+    text-align: center;
+    -webkit-box-shadow: 5px 6px 7px 3px #643d87;
+    -moz-box-shadow: 5px 6px 7px 3px #643d87;
+    box-shadow: 5px 6px 7px 3px #643d87;
+}
+
+#foto-perfil {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    border-radius: 20px;
+    border: solid 1px #555;
+    background-color: #eed;
+    box-shadow: 10px -10px rgba(100, 61, 135, 0.6);
+    -moz-box-shadow: 10px -10px rgba(100, 61, 135, 0.6);
+    -webkit-box-shadow: 10px -10px rgba(100, 61, 135, 0.6);
+    -o-box-shadow: 10px -10px rgba(100, 61, 135, 0.6);
+    border-radius: 100px;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 8px;
+    margin-top: 25px;
+    box-shadow: 3px -3px rgba(100, 61, 135, 0.1);
+    -moz-box-shadow: 3px -3px rgba(100, 61, 135, 0.1);
+    -webkit-box-shadow: 3px -3px rgba(100, 61, 135, 0.1);
+    -o-box-shadow: 3px -3px rgba(100, 61, 135, 0.1);
+}
+
+#email {
+    background-image: url("../imagens/icone-usuario.png");
+}
+
+#senha {
+    background-image: url("../imagens/icone-cadeado.png");
+}
+
+#login {
+    background-color: #f79000;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px;
+    height: 45px;
+    width: 20%;
+}
+
+input:hover {
+    background-color: #eeecec;
+}

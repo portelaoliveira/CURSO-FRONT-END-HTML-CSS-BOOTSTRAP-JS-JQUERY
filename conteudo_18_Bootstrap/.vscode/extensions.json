@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"thekalinga.bootstrap4-vscode",
+		"eventyret.bootstrap-4-cdn-snippet",
+		"zaczero.bootstrap-v4-snippets",
+		"bhshawon.node-json-autocomplete",
+		"firefox-devtools.vscode-firefox-debug",
+		"dbaeumer.vscode-eslint",
+		"dbaeumer.jshint",
+		"hookyqr.beautify",
+		"googlecloudtools.cloudcode",
+		"sibiraj-s.vscode-scss-formatter",
+		"michelemelluso.code-beautifier",
+		"gencer.html-slim-scss-css-class-completion",
+		"p-de-jong.vscode-html-scss"
+	]
+}

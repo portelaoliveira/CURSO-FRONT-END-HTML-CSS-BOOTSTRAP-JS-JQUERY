@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Título da página -->
+    <title>Bootstrap - Formulários</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- HTML5 hiv -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body style="margin-bottom: 200px;padding: 16px;">
+
+    <!-- formulários 
+        classe: form-control-<opcoes>
+        opções: sm, lg
+    -->
+    <form>
+
+        <!-- caixas de texto -->
+        <div class="mb-3">
+            <label class="form-label" for="usuario">Usuário</label>
+            <input class="form-control form-control-sm" type="text" id="usuario" placeholder="Digite seu usuário">
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control form-control-sm" type="email" id="email" placeholder="Digite seu email">
+            <small class="form-text">Email será validado</small>
+        </div>
+
+        <!-- select -->
+        <div class="mb-3">
+            <label class="form-label" for="estados">Estados</label>
+            <select class="form-select form-select-sm" id="estados">
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>...</option>
+            </select>
+        </div>
+
+        <!-- textarea -->
+        <div class="mb-3">
+            <label class="form-label" for="mensagem">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+        </div>
+
+        <!-- file input -->
+        <div class="mb-3">
+            <label class="form-label" for="arquivo">Arquivo</label>
+            <input class="form-control" type="file" id="arquivo">
+        </div>
+
+        <!-- range -->
+        <div class="mb-3">
+            <label class="form-label" id="range">Satisfação</label>
+            <input class="form-range" type="range" id="range" min="1" max="5">
+        </div>
+
+        <!-- button -->
+        <input class="btn btn-primary" type="submit" value="Salvar">
+
+    </form>
+    <br><br>
+
+    <!-- Formulário inline -->
+    <form class="mb-3">
+        <div class="mb-3">
+            <label class="form-label" for="email-usuario">email</label>
+            <input class="form-control" type="text" id="email-usuario" placeholder="Digite seu e-mail">
+        </div>
+
+
+        <div class="mb-3">
+            <label class="form-label" for="senha-usuario">Senha</label>
+            <input class="form-control" type="email" id="senha-usuario" placeholder="Digite sua senha">
+        </div>
+
+        <input class="btn btn-danger" type="submit" value="Logar">
+    </form>
+    <br><br>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
